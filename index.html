@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
 
-    <!-- Custom Script -->
-    <script src="script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Countdown Timer</title>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Poppins:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <h1>New Year Countdown</h1>
+
+        <div class="countdown-container">
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days">0</p>
+                <span>days</span>
+            </div>
+
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">0</p>
+                <span>hours</span>
+            </div>
+
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins">0</p>
+                <span>minutes</span>
+            </div>
+
+            <div class="countdown-el sec-c">
+                <p class="big-text" id="sec">0</p>
+                <span>seconds</span>
+            </div>
+            
+        </div>
+
+
+        <!-- Custom Script -->
+        <script src="script.js"></script>
+    </body>
+
 </html>
